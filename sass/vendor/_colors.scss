@@ -1,18 +1,18 @@
 @keyframes slidein {
     0% {
-        filter: drop-shadow(0 0 45px);
+        filter: drop-shadow(0 0 40px);
     }
     50% {
-        filter: drop-shadow(0 0 60px);
+        filter: drop-shadow(0 0 10px);
     }
     100% {
-        filter: drop-shadow(0 0 45px);
+        filter: drop-shadow(0 0 40px);
     }
 }
 
 @mixin animation {
     animation-name: slidein;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 

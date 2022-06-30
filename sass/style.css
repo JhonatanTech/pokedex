@@ -148,13 +148,13 @@ body::-webkit-scrollbar-thumb {
 }
 @keyframes slidein {
   0% {
-    filter: drop-shadow(0 0 45px);
+    filter: drop-shadow(0 0 40px);
   }
   50% {
-    filter: drop-shadow(0 0 60px);
+    filter: drop-shadow(0 0 10px);
   }
   100% {
-    filter: drop-shadow(0 0 45px);
+    filter: drop-shadow(0 0 40px);
   }
 }
 .grass {
@@ -166,7 +166,7 @@ body::-webkit-scrollbar-thumb {
 .img-grass {
   filter: drop-shadow(0 0 50px #00ff08);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -179,7 +179,7 @@ body::-webkit-scrollbar-thumb {
 .img-bug {
   filter: drop-shadow(0 0 50px #52b936);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -192,7 +192,7 @@ body::-webkit-scrollbar-thumb {
 .img-electric {
   filter: drop-shadow(0 0 50px #f6fb00);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -205,7 +205,7 @@ body::-webkit-scrollbar-thumb {
 .img-fighting {
   filter: drop-shadow(0 0 50px #cb0000);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -218,7 +218,7 @@ body::-webkit-scrollbar-thumb {
 .img-fire {
   filter: drop-shadow(0 0 50px #ff8400);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -231,7 +231,7 @@ body::-webkit-scrollbar-thumb {
 .img-ground {
   filter: drop-shadow(0 0 50px #946300);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -244,7 +244,7 @@ body::-webkit-scrollbar-thumb {
 .img-rock {
   filter: drop-shadow(0 0 50px #8d8e66);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -257,7 +257,7 @@ body::-webkit-scrollbar-thumb {
 .img-normal {
   filter: drop-shadow(0 0 50px #848484);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -270,7 +270,7 @@ body::-webkit-scrollbar-thumb {
 .img-poison {
   filter: drop-shadow(0 0 50px #9d00ff);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -283,7 +283,7 @@ body::-webkit-scrollbar-thumb {
 .img-ghost {
   filter: drop-shadow(0 0 50px #692096);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -296,7 +296,7 @@ body::-webkit-scrollbar-thumb {
 .img-psychic {
   filter: drop-shadow(0 0 50px #cc6df5);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -309,7 +309,7 @@ body::-webkit-scrollbar-thumb {
 .img-fairy {
   filter: drop-shadow(0 0 50px #e2adf9);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -322,7 +322,7 @@ body::-webkit-scrollbar-thumb {
 .img-flying {
   filter: drop-shadow(0 0 50px #a1e5f6);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -335,7 +335,7 @@ body::-webkit-scrollbar-thumb {
 .img-ice {
   filter: drop-shadow(0 0 50px #4adbff);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -348,7 +348,7 @@ body::-webkit-scrollbar-thumb {
 .img-water {
   filter: drop-shadow(0 0 50px #00bfff);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -361,7 +361,7 @@ body::-webkit-scrollbar-thumb {
 .img-dragon {
   filter: drop-shadow(0 0 50px #006eff);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -374,7 +374,7 @@ body::-webkit-scrollbar-thumb {
 .img-dark {
   filter: drop-shadow(0 0 50px #2c343f);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -387,7 +387,7 @@ body::-webkit-scrollbar-thumb {
 .img-steel {
   filter: drop-shadow(0 0 50px #565d66);
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 

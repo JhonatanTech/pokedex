@@ -1,0 +1,172 @@
+@keyframes slidein {
+    0% {
+        filter: drop-shadow(0 0 45px);
+    }
+    50% {
+        filter: drop-shadow(0 0 60px);
+    }
+    100% {
+        filter: drop-shadow(0 0 45px);
+    }
+}
+
+@mixin animation {
+    animation-name: slidein;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@mixin cors($cor) {
+    border: $cor 4px solid;
+    color: $cor;
+    box-shadow: 0 0 1em $cor,inset 0 0 .8em $cor;
+}
+
+@mixin img-cors($cor) {
+    filter: drop-shadow(0 0 50px $cor);
+    @include animation();
+}
+
+.grass{
+    @include cors(#00ff08);
+}
+
+.img-grass{
+    @include img-cors(#00ff08);
+}
+
+.bug{
+    @include cors(#52b936);
+}
+
+.img-bug{
+    @include img-cors(#52b936);
+}
+
+.electric{
+    @include cors(#f6fb00);
+}
+
+.img-electric{
+    @include img-cors(#f6fb00);
+}
+
+.fighting{
+    @include cors(#cb0000);
+}
+
+.img-fighting{
+    @include img-cors(#cb0000);
+}
+
+.fire{
+    @include cors(#ff8400);
+}
+
+.img-fire{
+    @include img-cors(#ff8400);
+}
+
+.ground{
+    @include cors(#946300);
+}
+
+.img-ground{
+    @include img-cors(#946300);
+}
+
+.rock{
+    @include cors(#8d8e66);
+}
+
+.img-rock{
+    @include img-cors(#8d8e66);
+}
+
+.normal{
+    @include cors(#848484);
+}
+
+.img-normal{
+    @include img-cors(#848484);
+}
+
+.poison{
+    @include cors(#9d00ff);
+}
+
+.img-poison{
+    @include img-cors(#9d00ff);
+}
+
+.ghost{
+    @include cors(#692096);
+}
+
+.img-ghost{
+    @include img-cors(#692096);
+}
+
+.psychic{
+    @include cors(#cc6df5);
+}
+
+.img-psychic{
+    @include img-cors(#cc6df5);
+}
+
+.fairy{
+    @include cors(#e2adf9);
+}
+
+.img-fairy{
+    @include img-cors(#e2adf9);
+}
+
+.flying{
+    @include cors(#a1e5f6);
+}
+
+.img-flying{
+    @include img-cors(#a1e5f6);
+}
+
+.ice{
+    @include cors(#4adbff);
+}
+
+.img-ice{
+    @include img-cors(#4adbff);
+}
+
+.water{
+    @include cors(#00bfff);
+}
+
+.img-water{
+    @include img-cors(#00bfff);
+}
+
+.dragon{
+    @include cors(#006eff);
+}
+
+.img-dragon{
+    @include img-cors(#006eff);
+}
+
+.dark{
+    @include cors(#2c343f);
+}
+
+.img-dark{
+    @include img-cors(#2c343f);
+}
+
+.steel{
+    @include cors(#565d66);
+}
+
+.img-steel{
+    @include img-cors(#565d66);
+}

@@ -1,0 +1,33 @@
+@media (max-width: 770px) {
+    .pokemons{
+        width: 100%;
+        padding: 30px;
+        margin: 0;
+    .pokemons_div_card:first-child,
+    .pokemons_div_card:nth-child(1n){
+        margin-left: none;
+    }
+    .pokemons_div_card:nth-child(3n){
+        margin-right: none;
+    }
+    .pokemons_div_card{
+        width: 49%;
+        margin: 2% 1%;
+
+        .pokemons_p_number{
+            font-size: .5em;
+        }
+        .pokemons_p_name{
+            font-size: .6em;
+            margin: 10px;
+        }
+        .flags{
+            .pokemons_span_flag{
+                width: 90%;
+                font-size: .5em;
+                line-height: .8em;
+            }
+        }
+    }
+}
+}

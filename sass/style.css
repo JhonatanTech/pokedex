@@ -78,7 +78,7 @@ body::-webkit-scrollbar-thumb {
 }
 .pokemons .pokemons_div_card .pokemons_img_pokemon {
   height: auto;
-  width: 100%;
+  width: 90%;
   margin-bottom: 20px;
 }
 .pokemons .pokemons_div_card .pokemons_p_number {
@@ -92,7 +92,8 @@ body::-webkit-scrollbar-thumb {
 .pokemons .pokemons_div_card .pokemons_p_name {
   width: 100%;
   font-family: Calibri;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: 1px;
   font-size: 1em;
   text-transform: uppercase;
   margin: 30px 0;
@@ -107,7 +108,7 @@ body::-webkit-scrollbar-thumb {
 .pokemons .pokemons_div_card .flags .pokemons_span_flag {
   width: 50%;
   font-family: Calibri;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 0.8em;
   line-height: 1.5em;
   text-transform: uppercase;
@@ -124,17 +125,19 @@ body::-webkit-scrollbar-thumb {
   }
   .pokemons .pokemons_div_card:first-child,
 .pokemons .pokemons_div_card:nth-child(1n) {
-    margin-left: none;
+    margin-left: 0;
   }
-  .pokemons .pokemons_div_card:nth-child(3n) {
-    margin-right: none;
+  .pokemons .pokemons_div_card:nth-child(2n) {
+    margin-left: 1%;
+    margin-right: 0;
   }
   .pokemons .pokemons_div_card {
     width: 49%;
-    margin: 2% 1%;
+    border: 2px solid;
   }
   .pokemons .pokemons_div_card .pokemons_p_number {
     font-size: 0.5em;
+    font-weight: 300;
   }
   .pokemons .pokemons_div_card .pokemons_p_name {
     font-size: 0.6em;
@@ -144,6 +147,7 @@ body::-webkit-scrollbar-thumb {
     width: 90%;
     font-size: 0.5em;
     line-height: 0.8em;
+    border: 2px solid;
   }
 }
 @keyframes slidein {
@@ -397,11 +401,15 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   max-width: 655px;
   margin: 50px auto 0 auto;
-  padding: 40px 0;
+  padding: 40px 0 0 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .footer .footer_img_logo {
   height: 100px;
   margin-left: 0;
+  margin-bottom: 40px;
 }
 .footer .footer_ul_media {
   display: flex;
@@ -410,7 +418,6 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   align-content: center;
   width: 100%;
-  margin-right: 60px;
 }
 .footer .footer_ul_media li {
   list-style: none;
@@ -427,6 +434,16 @@ body::-webkit-scrollbar-thumb {
 .footer .footer_ul_media li a img {
   display: block;
   height: 40px;
+}
+.footer .footer_div_copy {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer .footer_div_copy .footer_p_copy {
+  color: #fff;
+  font-family: Calibri;
+  padding: 10px;
 }
 
 .footer::before {
@@ -448,41 +465,16 @@ body::-webkit-scrollbar-thumb {
     margin: 0;
   }
   .footer .footer_img_logo {
-    height: 100%;
-    margin-left: 0;
-  }
-  .footer .footer_ul_media {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    margin-right: 0;
-  }
-  .footer .footer_ul_media li {
-    list-style: none;
-    text-decoration: none;
-    margin: 0 20px;
-  }
-  .footer .footer_ul_media li a {
-    display: block;
-    padding: 15px;
-    background-color: rgb(243, 243, 243);
-    box-shadow: 0 0 0.5em #ffffff, inset 0 0 1em #ffffff;
-    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    margin: 0 auto 20px auto;
   }
   .footer .footer_ul_media li a img {
-    display: block;
-    height: 40px;
+    height: 30px;
   }
   .footer::before {
-    content: "";
+    top: 40px;
     width: 100%;
-    height: 7px;
-    position: absolute;
-    background-color: rgb(243, 243, 243);
-    box-shadow: 0 0 0.5em #ffffff, inset 0 0 1em #ffffff;
-    margin: -45px 0;
+    height: 2px;
   }
 }

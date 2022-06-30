@@ -5,17 +5,19 @@
         margin: 0;
     .pokemons_div_card:first-child,
     .pokemons_div_card:nth-child(1n){
-        margin-left: none;
+        margin-left: 0;
     }
-    .pokemons_div_card:nth-child(3n){
-        margin-right: none;
+    .pokemons_div_card:nth-child(2n){
+        margin-left: 1%;
+        margin-right: 0;
     }
     .pokemons_div_card{
         width: 49%;
-        margin: 2% 1%;
+        border: 2px solid;
 
         .pokemons_p_number{
             font-size: .5em;
+            font-weight: 300;
         }
         .pokemons_p_name{
             font-size: .6em;
@@ -26,6 +28,7 @@
                 width: 90%;
                 font-size: .5em;
                 line-height: .8em;
+                border: 2px solid;
             }
         }
     }

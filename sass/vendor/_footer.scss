@@ -4,10 +4,15 @@
     width: 100%;
     max-width: 655px;
     margin: 50px auto 0 auto;
-    padding: 40px 0;
+    padding: 40px 0 0 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
     .footer_img_logo{
         height: 100px;
         margin-left: 0;
+        margin-bottom: 40px;
     }
 
     .footer_ul_media{
@@ -17,7 +22,6 @@
         align-items: center;
         align-content: center;
         width: 100%;
-        margin-right: 60px;
         li{
             list-style: none;
             text-decoration: none;
@@ -33,6 +37,17 @@
                     height: 40px;
                 }
             }
+        }
+    }
+    .footer_div_copy{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+
+        .footer_p_copy{
+            color: #fff;
+            font-family: Calibri;
+            padding: 10px;
         }
     }
 }

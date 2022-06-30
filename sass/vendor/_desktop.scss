@@ -29,7 +29,7 @@
 
         .pokemons_img_pokemon{
             height: auto;
-            width: 100%;
+            width: 90%;
             margin-bottom: 20px;
         }
         .pokemons_p_number{
@@ -43,7 +43,8 @@
         .pokemons_p_name{
             width: 100%;
             font-family: Calibri;
-            font-weight: bold;
+            font-weight: 600;
+            letter-spacing: 1px;
             font-size: 1em;
             text-transform: uppercase;
             margin: 30px 0;
@@ -58,7 +59,7 @@
             .pokemons_span_flag{
                 width: 50%;
                 font-family: Calibri;
-                font-weight: bold;
+                font-weight: 500;
                 font-size: .8em;
                 line-height: 1.5em;
                 text-transform: uppercase;

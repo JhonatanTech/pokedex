@@ -29,4 +29,5 @@ const sass = require('gulp-sass')(require('sass'));
 - Gulp
 
 ## 🖥 Projeto:
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/43156649/176798497-b29afcb8-02a6-425e-ada6-f9ded6fe2c27.gif)
+
+<img align="center" alt="Gif" width="100%" style="border-radius:10px;"  src="https://user-images.githubusercontent.com/43156649/176798497-b29afcb8-02a6-425e-ada6-f9ded6fe2c27.gif">

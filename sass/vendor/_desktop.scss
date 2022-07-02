@@ -25,6 +25,14 @@
             width: 100%;
             margin-bottom: 20px;
         }
+
+        .pokemons_img_pokemonShiny{
+            display: none;
+            height: auto;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
         .pokemons_p_number{
             width: 100%;
             font-family: Calibri;
@@ -38,7 +46,7 @@
             letter-spacing: 1px;
             font-size: 1em;
             text-transform: uppercase;
-            margin: 30px 0;
+            margin: 5px 0 15px 0;
         }
         .flags{
             width: 100%;
@@ -76,14 +84,20 @@
             margin: 25px auto 0 auto;
 
             .stats_p_stat{
-                width: 70%;
-                text-align: start;
+                width: 100%;
+                text-align: center;
                 font-weight: 550;
             }
-            .stats_p_value{
-                width: 30%;
-                text-align: end;
-                font-weight: 600;
+            .stats_div_progress{
+                width: 100%;
+                height: 15px;
+                border-radius: 10px;
+                margin-bottom: 5px;
+                overflow: hidden;
+
+                .stat_div_porcent{
+                    height: 100%;
+                }
             }
         }
     }
@@ -96,5 +110,13 @@
     }
     .pokemons_div_card:hover{
         transform: scale(1.05);
+
+        .pokemons_img_pokemon{
+            display: none;
+        }
+
+        .pokemons_img_pokemonShiny{
+            display: block;
+        }
     }
 }

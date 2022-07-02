@@ -25,11 +25,16 @@
         }
         .flags{
             .pokemons_span_flag{
-                width: 90%;
+                width: 100%;
                 font-size: .5em;
                 line-height: .8em;
                 border: 2px solid;
             }
+        }
+        .stats{
+            border: 2px solid;
+            font-size: .5em;
+            margin-top: 10px;
         }
     }
 }

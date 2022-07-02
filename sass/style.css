@@ -5,7 +5,7 @@
   background-size: 100%;
 }
 .header_banner .header_img_logo {
-  height: 20vh;
+  height: 200px;
   filter: drop-shadow(0 0 50px #3c59a5);
 }
 
@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb {
 
 .pokemons {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -63,13 +63,6 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   padding: 0 35px;
   margin: 0 auto;
-}
-.pokemons .pokemons_div_card:first-child,
-.pokemons .pokemons_div_card:nth-child(1n) {
-  margin-left: 0;
-}
-.pokemons .pokemons_div_card:nth-child(4n) {
-  margin-right: 0;
 }
 .pokemons .pokemons_div_card {
   display: flex;
@@ -83,16 +76,14 @@ body::-webkit-scrollbar-thumb {
 }
 .pokemons .pokemons_div_card .pokemons_img_pokemon {
   height: auto;
-  width: 90%;
+  width: 100%;
   margin-bottom: 20px;
 }
 .pokemons .pokemons_div_card .pokemons_p_number {
   width: 100%;
   font-family: Calibri;
-  text-transform: uppercase;
   font-weight: 100;
   font-size: 0.8em;
-  text-transform: uppercase;
 }
 .pokemons .pokemons_div_card .pokemons_p_name {
   width: 100%;
@@ -106,12 +97,12 @@ body::-webkit-scrollbar-thumb {
 .pokemons .pokemons_div_card .flags {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: nowrap;
-  margin: 0 2.5%;
+  margin: 0 5.5%;
 }
 .pokemons .pokemons_div_card .flags .pokemons_span_flag {
-  width: 50%;
+  width: 45%;
   font-family: Calibri;
   font-weight: 500;
   font-size: 0.8em;
@@ -120,6 +111,42 @@ body::-webkit-scrollbar-thumb {
   border-radius: 15px;
   padding: 10px 0;
   margin: 0 auto;
+}
+.pokemons .pokemons_div_card .stats {
+  width: 85%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-transform: uppercase;
+  font-family: Calibri;
+  font-size: 0.8em;
+  border-radius: 15px;
+  border: 4px solid;
+  box-shadow: 0 0 0.3em, inset 0 0 0.3em;
+  padding: 10px;
+  margin: 25px auto 0 auto;
+}
+.pokemons .pokemons_div_card .stats .stats_p_stat {
+  width: 70%;
+  text-align: start;
+  font-weight: 550;
+}
+.pokemons .pokemons_div_card .stats .stats_p_value {
+  width: 30%;
+  text-align: end;
+  font-weight: 600;
+}
+.pokemons .pokemons_div_card:first-child,
+.pokemons .pokemons_div_card:nth-child(1n) {
+  margin-left: 0;
+}
+.pokemons .pokemons_div_card:nth-child(4n) {
+  margin-right: 0;
+}
+.pokemons .pokemons_div_card:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 770px) {
@@ -149,10 +176,15 @@ body::-webkit-scrollbar-thumb {
     margin: 10px;
   }
   .pokemons .pokemons_div_card .flags .pokemons_span_flag {
-    width: 90%;
+    width: 100%;
     font-size: 0.5em;
     line-height: 0.8em;
     border: 2px solid;
+  }
+  .pokemons .pokemons_div_card .stats {
+    border: 2px solid;
+    font-size: 0.5em;
+    margin-top: 10px;
   }
 }
 @keyframes slidein {

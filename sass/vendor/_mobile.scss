@@ -3,6 +3,9 @@
         width: 100%;
         padding: 30px;
         margin: 0;
+    .pokemons_div_card{
+        margin-bottom: 2%;
+    }
     .pokemons_div_card:first-child,
     .pokemons_div_card:nth-child(1n){
         margin-left: 0;
@@ -40,6 +43,9 @@
                 height: 10px;
             }
         }
+    }
+    .pokemons_div_card:hover{
+        transform: scale(1.03);
     }
 }
 }

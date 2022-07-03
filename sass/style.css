@@ -172,6 +172,9 @@ body::-webkit-scrollbar-thumb {
     padding: 30px;
     margin: 0;
   }
+  .pokemons .pokemons_div_card {
+    margin-bottom: 2%;
+  }
   .pokemons .pokemons_div_card:first-child,
 .pokemons .pokemons_div_card:nth-child(1n) {
     margin-left: 0;
@@ -205,6 +208,9 @@ body::-webkit-scrollbar-thumb {
   .pokemons .pokemons_div_card .stats .stats_div_progress {
     border: 2px solid;
     height: 10px;
+  }
+  .pokemons .pokemons_div_card:hover {
+    transform: scale(1.03);
   }
 }
 @keyframes slidein {

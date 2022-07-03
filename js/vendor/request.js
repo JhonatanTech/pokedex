@@ -1,5 +1,5 @@
 // https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0
-fetch(`https://pokeapi.co/api/v2/pokemon?limit=15&offset=0`)
+fetch(`https://pokeapi.co/api/v2/pokemon?limit=151&offset=0`)
     .then(response=>response.json())
     .then(results => {
         const pokemons = results.results
@@ -57,4 +57,3 @@ fetch(`https://pokeapi.co/api/v2/pokemon?limit=15&offset=0`)
                 })
         })
 })
-

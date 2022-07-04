@@ -1,3 +1,14 @@
+@keyframes hiden {
+    0%{
+        opacity: 0;
+        width: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 100%;
+    }
+}
+
 .pokemons{
     width: 100%;
     max-width: 1200px;
@@ -9,6 +20,8 @@
     align-items: center;
     padding: 0 35px;
     margin: 0 auto;
+    animation-name: hiden;
+    animation-duration: 3s;
 
     .pokemons_div_card{
         display: flex;

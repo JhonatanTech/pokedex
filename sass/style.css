@@ -52,6 +52,16 @@ body::-webkit-scrollbar-thumb {
   box-shadow: 0 0 3.5em #00eef6, inset 0 0 0.4em #000000;
 }
 
+@keyframes hiden {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
+}
 .pokemons {
   width: 100%;
   max-width: 1200px;
@@ -63,6 +73,8 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   padding: 0 35px;
   margin: 0 auto;
+  animation-name: hiden;
+  animation-duration: 3s;
 }
 .pokemons .pokemons_div_card {
   display: flex;

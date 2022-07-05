@@ -1,3 +1,4 @@
+const { parallel } = require('gulp');
 const gulp = require('gulp')
 const sass = require('gulp-sass')(require('sass'))
 const autoprefixer = require('gulp-autoprefixer')
@@ -13,6 +14,10 @@ function buildStyles() {
         .pipe(gulp.dest('sass/'))
 }
 exports.buildStyles = buildStyles
-exports.watch = () => {
+
+function watch() {
     gulp.watch('./sass/vendor/*.scss', buildStyles)
 }
+exports.watch = watch
+
+exports.default = parallel(watch)

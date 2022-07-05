@@ -27,14 +27,16 @@
     @include animation();
 }
 
+@mixin stats-cors($cor) {
+    background-image: linear-gradient(to right,#121212, $cor);
+}
+
 .grass{
     @include cors(#00ff08);
 }
-
 .grass-stats{
-    background-color: #00ff08
+    @include stats-cors(#00ff08);
 }
-
 .img-grass{
     @include img-cors(#00ff08);
 }
@@ -42,11 +44,9 @@
 .bug{
     @include cors(#52b936);
 }
-
 .bug-stats{
-    background-color: #52b936
+    @include stats-cors(#52b936)
 }
-
 .img-bug{
     @include img-cors(#52b936);
 }
@@ -54,11 +54,9 @@
 .electric{
     @include cors(#f6fb00);
 }
-
 .electric-stats{
-    background-color: #f6fb00
+    @include stats-cors(#f6fb00)
 }
-
 .img-electric{
     @include img-cors(#f6fb00);
 }
@@ -66,11 +64,9 @@
 .fighting{
     @include cors(#cb0000);
 }
-
 .fighting-stats{
-    background-color: #cb0000
+    @include stats-cors(#cb0000)
 }
-
 .img-fighting{
     @include img-cors(#cb0000);
 }
@@ -78,11 +74,9 @@
 .fire{
     @include cors(#ff8400);
 }
-
 .fire-stats{
-    background-color: #ff8400
+    @include stats-cors(#ff8400)
 }
-
 .img-fire{
     @include img-cors(#ff8400);
 }
@@ -90,11 +84,9 @@
 .ground{
     @include cors(#946300);
 }
-
 .ground-stats{
-    background-color: #946300
+    @include stats-cors(#946300)
 }
-
 .img-ground{
     @include img-cors(#946300);
 }
@@ -102,11 +94,9 @@
 .rock{
     @include cors(#8d8e66);
 }
-
 .rock-stats{
-    background-color: #8d8e66
+    @include stats-cors(#8d8e66)
 }
-
 .img-rock{
     @include img-cors(#8d8e66);
 }
@@ -114,11 +104,9 @@
 .normal{
     @include cors(#848484);
 }
-
 .normal-stats{
-    background-color: #848484
+    @include stats-cors(#848484)
 }
-
 .img-normal{
     @include img-cors(#848484);
 }
@@ -126,11 +114,9 @@
 .poison{
     @include cors(#9d00ff);
 }
-
 .poison-stats{
-    background-color: #9d00ff
+    @include stats-cors(#9d00ff)
 }
-
 .img-poison{
     @include img-cors(#9d00ff);
 }
@@ -138,11 +124,9 @@
 .ghost{
     @include cors(#692096);
 }
-
 .ghost-stats{
-    background-color: #692096
+    @include stats-cors(#692096)
 }
-
 .img-ghost{
     @include img-cors(#692096);
 }
@@ -150,11 +134,9 @@
 .psychic{
     @include cors(#cc6df5);
 }
-
 .psychic-stats{
-    background-color: #cc6df5
+    @include stats-cors(#cc6df5)
 }
-
 .img-psychic{
     @include img-cors(#cc6df5);
 }
@@ -162,11 +144,9 @@
 .fairy{
     @include cors(#e2adf9);
 }
-
 .fairy-stats{
-    background-color: #e2adf9
+    @include stats-cors(#e2adf9)
 }
-
 .img-fairy{
     @include img-cors(#e2adf9);
 }
@@ -174,11 +154,9 @@
 .flying{
     @include cors(#a1e5f6);
 }
-
 .flying-stats{
-    background-color: #a1e5f6
+    @include stats-cors(#a1e5f6)
 }
-
 .img-flying{
     @include img-cors(#a1e5f6);
 }
@@ -186,11 +164,9 @@
 .ice{
     @include cors(#4adbff);
 }
-
 .ice-stats{
-    background-color: #4adbff
+    @include stats-cors(#4adbff)
 }
-
 .img-ice{
     @include img-cors(#4adbff);
 }
@@ -198,11 +174,9 @@
 .water{
     @include cors(#00bfff);
 }
-
 .water-stats{
-    background-color: #00bfff
+    @include stats-cors(#00bfff)
 }
-
 .img-water{
     @include img-cors(#00bfff);
 }
@@ -210,11 +184,9 @@
 .dragon{
     @include cors(#006eff);
 }
-
 .dragon-stats{
-    background-color: #006eff
+    @include stats-cors(#006eff)
 }
-
 .img-dragon{
     @include img-cors(#006eff);
 }
@@ -222,11 +194,9 @@
 .dark{
     @include cors(#2c343f);
 }
-
 .dark-stats{
-    background-color: #2c343f
+    @include stats-cors(#2c343f)
 }
-
 .img-dark{
     @include img-cors(#2c343f);
 }
@@ -234,11 +204,9 @@
 .steel{
     @include cors(#565d66);
 }
-
 .steel-stats{
-    background-color: #565d66
+    @include stats-cors(#565d66)
 }
-
 .img-steel{
     @include img-cors(#565d66);
 }
